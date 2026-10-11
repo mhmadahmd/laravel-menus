@@ -105,7 +105,7 @@ class MenuBuilder implements Countable
      * @param  callable|null $callback
      * @return mixed
      */
-    public function whereTitle($title, callable $callback = null)
+    public function whereTitle($title, ?callable $callback = null)
     {
         $item = $this->findBy('title', $title);
 
@@ -500,7 +500,7 @@ class MenuBuilder implements Countable
      *
      * @return int
      */
-    public function count()
+    public function count(): int
     {
         return count($this->items);
     }

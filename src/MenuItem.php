@@ -23,6 +23,20 @@ use Illuminate\Support\Str;
 class MenuItem implements ArrayableContract
 {
     /**
+     * The fillable item properties (declared to avoid dynamic
+     * property deprecations on PHP 8.2+).
+     */
+    public $url;
+    public $route;
+    public $title;
+    public $name;
+    public $icon;
+    public $parent;
+    public $attributes = [];
+    public $active;
+    public $order;
+
+    /**
      * Array properties.
      *
      * @var array
