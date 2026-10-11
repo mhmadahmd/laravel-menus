@@ -21,15 +21,15 @@
   ],
   "require": {
     "php": "^8.0",
-    "illuminate/support": "^9.44",
-    "illuminate/config": "^9.44",
-    "illuminate/view": "^9.44",
+    "illuminate/support": "^9.44|^10.0|^11.0|^12.0",
+    "illuminate/config": "^9.44|^10.0|^11.0|^12.0",
+    "illuminate/view": "^9.44|^10.0|^11.0|^12.0",
     "laravelcollective/html": "^6.2"
   },
   "require-dev": {
-    "phpunit/phpunit": "~9.5",
+    "phpunit/phpunit": "^9.5|^10.5",
     "mockery/mockery": "~1.5",
-    "orchestra/testbench": "~7.16",
+    "orchestra/testbench": "^7.16|^8.0|^9.0|^10.0",
     "friendsofphp/php-cs-fixer": "^3.13"
   },
   "autoload": {
@@ -44,7 +44,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "6.0-dev"
+      "dev-main": "6.1-dev"
     },
     "laravel": {
       "providers": [

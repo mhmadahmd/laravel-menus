@@ -1,5 +1,10 @@
 # Laravel Menus
 
+> **Maintained fork** (by [@mhmadahmd](https://github.com/mhmadahmd)) of [nwidart/laravel-menus](https://github.com/nwidart/laravel-menus),
+> based on the Laravel 9 compatibility work from [dineshsailor's fork](https://github.com/dineshsailor/nWidart-laravel-menus).
+> This fork widens framework support to **Laravel 9, 10, 11, and 12**.
+> Install via a VCS repository entry pointing at this repository.
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nwidart/laravel-menus.svg?style=flat-square)](https://packagist.org/packages/nwidart/laravel-menus)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/nWidart/laravel-menus/master.svg?style=flat-square)](https://travis-ci.org/nWidart/laravel-menus)
